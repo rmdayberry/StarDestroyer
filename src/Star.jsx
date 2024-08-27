@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 
 function Star({ id, x, y, destroyStar }) {
   const starRef = useRef(null);

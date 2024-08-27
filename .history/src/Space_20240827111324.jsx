@@ -40,7 +40,7 @@ function Space() {
           id={star.id}
           x={star.x}
           y={star.y}
-          destroyStar={destroyStar}
+          destroyerStar={destroyStar}
         />
       ))}
     </div>

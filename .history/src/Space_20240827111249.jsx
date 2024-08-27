@@ -26,21 +26,14 @@ function Space() {
   };
 
   return (
-    <div
-      style={{
-        position: "relative",
-        width: "100vw",
-        height: "100vh",
-        overflow: "hidden",
-      }}
-    >
+    <div style={{ position: "relative", width: "100vw", overflow: "hidden" }}>
       {stars.map((star) => (
         <Star
           key={star.id}
           id={star.id}
           x={star.x}
           y={star.y}
-          destroyStar={destroyStar}
+          destroyerStar={destroyStar}
         />
       ))}
     </div>
