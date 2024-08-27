@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Star from "./Star.jsx";
-import "./space.css";
 
 const star_size = 20;
 

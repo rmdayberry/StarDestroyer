@@ -1,0 +1,14 @@
+.Star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 10px yellow;
+  cursor: pointer;
+  outline: none;
+}
+
+.Star:focus {
+  box-shadow: 0 0 15px yellow;
+}

@@ -1,0 +1,25 @@
+.Star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  clip-path: polygon(
+    50% 0% 61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  border-radius: 50%;
+  box-shadow: 0 0 10px yellow;
+  cursor: pointer;
+  outline: none;
+}
+
+.Star:focus {
+  box-shadow: 0 0 15px yellow;
+}

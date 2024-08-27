@@ -12,7 +12,7 @@ function Star({ id, x, y, destroyStar }) {
   return (
     <div
       className="Star"
-      style={{ left: `${x}px`, top: `${y}px` }}
+      style={{ left }}
       ref={starRef}
       tabIndex="0"
       onClick={() => destroyStar(id)}
