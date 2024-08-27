@@ -4,7 +4,7 @@ import Star from "./assets/Star";
 const star_size = 20;
 
 function Space() {
-  const [stars, setStars] = useState([]);
+  const [stars, setStars] = useSate([]);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
